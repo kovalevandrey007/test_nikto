@@ -1,0 +1,7 @@
+- Nikto v2.1.5/2.1.5
++ Target Host: test-stand.gb.ru
++ Target Port: 443
++ GET /: The anti-clickjacking X-Frame-Options header is not present.
++ GET /ugFrWZyd.php3: Server leaks inodes via ETags, header found with file /ugFrWZyd.php3, fields: 0x6hdd14 
++ GET /: Uncommon header 'x-content-type-options' found, with contents: nosniff
++ GET /: Hostname 'test-stand.gb.ru' does not match certificate's CN 'TRAEFIK'
